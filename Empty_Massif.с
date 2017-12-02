@@ -3,7 +3,6 @@
 #include <string.h>
 
 
-
 int main(int argc, char *argv[])
 {
     int a = rand()%10 + 4; 
@@ -117,13 +116,13 @@ int main(int argc, char *argv[])
     }
 
 
-int G, S;
-printf( "Enter the number of columns in the matrix.\n" );
-G = l;
+    int G, S;
+        printf( "Enter the number of columns in the matrix.\n" );
+    G = l;
 
     scanf("%d", &S);
 
-int MassTwo[G][S];
+  int MassTwo[G][S];
     for ( i = 0; i < G; i++ )
     {
      for ( j = 0; j < S; j++ )
